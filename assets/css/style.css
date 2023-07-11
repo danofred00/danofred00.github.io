@@ -43,3 +43,8 @@ body {
     color: #fff;
     text-decoration: none;
 }
+
+.progress .progress-bar {
+    width: 0%;
+    transition: 1s;
+}

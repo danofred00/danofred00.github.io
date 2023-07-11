@@ -7,6 +7,25 @@
     text-align: right;
 }
 
+#about-text::first-letter {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 10px;
+}
+
+#skills .progress {
+    min-width: 250px;
+    margin-left: 10px;
+    background-color: rgb(182, 168, 161);
+}
+
+.progress-container {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.progress-container span { font-weight: bold;}
+
 @media screen and (max-width: 576px) {
     
     #banner-container {
@@ -16,5 +35,18 @@
     #banner div, #banner{
         display: block;
         text-align: center;
+    }
+
+   .progress-container{
+        display: block;
+    }
+
+    .progress-container li {
+        margin: 0px auto;
+    }
+
+    .progress-container li div.progress {
+        display: inline-block;
+        width: 200px;
     }
 }

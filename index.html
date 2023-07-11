@@ -12,6 +12,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
     <!-- My styles -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/index.css">
@@ -53,6 +56,7 @@
         </header>
 
         <!-- body -->
+        <!-- Banner Section -->
         <div class="align-items-center p-2 container-fluid" id="banner-container">
             <div id="banner" class="row align-items-center justify-content-evenly">
                 <div id="banner-image" class="col d-inline-block">
@@ -61,16 +65,18 @@
                 <div class="col" id="banner-text">
                     <span class="fs-4">Salut, Je suis <br><b>Daniel LEUSSA</b></span>
                     <p>Developpeur Fullstack</p>
-                    <p><a class="btn btn-primary" target="_blank" href="https://github.com/danofred00" title="Voir mon portfolio">Mon Portfolio <span></span></a></p>
+                    <p><a class="btn btn-primary" target="_blank" href="https://github.com/danofred00" title="Voir mon portfolio">
+                        Mon Portfolio <span><img src="./assets/images/icons/external-link.svg"></span></a></p>
                 </div>
             </div>
         </div>
 
-        <div id="about-me" class="container-fluid">
+        <!-- About Section -->
+        <div id="about-me" class="container-fluid bg-white py-4">
             <div class="container">
                 <div class="text-center fs-3 fw-bold text-uppercase">A propos de moi</div>
-                <div class="pt-4">
-                    <p>
+                <div class="pt-4 text-center">
+                    <p id="about-text">
                         Je suis avant tout un super passioné de l'informatique de façon générale, j'étudie la programmation de façon continue et permanente en autodidacte depuis quatre (04) ans environ.
                         J'ai pas mal d'experience en conception logiciel (planification, conception, realisation, tests, deploiement, maintenance).
                         Je suis également un Youtubeur depuis deux (02) ans environs, et j'ai crée une nouvelle chaine qui se nomme <b><a href="https://youtube.com/@Harptutos">Harptutos</a></b>.
@@ -79,9 +85,116 @@
             </div>
         </div>
 
+        <!-- Skills section -->
+        <div class="container-fluid py-4" id="skills-container">
+            <div class="container" id="skills">
+                <div class="text-center fs-3 fw-bold text-uppercase">Mes Compétences</div>
+                <div class="pt-4">
+                    <p class="text-center">Depuis que j'ai débuté l'informatique, j'ai acquis pas mal d'expériences dans differents domaines de celui-ci.</p>
+                    <hr>
+                    <div>
+                        <h5 class="text-center">Languages / Frameworks</h5>
+                        <ui class="row row-cols-2 progress-container">
+                            <li>
+                                <span>C</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">85%</div>
+                                </div>                                  
+                            </li>
+                            <li>
+                                <span>C++</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">75%</div>
+                                </div>                                  
+                            </li>
+                            <li>
+                                <span>PYTHON</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">80%</div>
+                                </div>                                  
+                            </li>
+                            <li>
+                                <span>PHP</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">80%</div>
+                                </div>                                  
+                            </li>
+                            <li>
+                                <span>JAVA</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">65%</div>
+                                </div>                                  
+                            </li>
+                            <li>
+                                <span>HTML & CSS</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">99%</div>
+                                </div>                                  
+                            </li>
+                            <li>
+                                <span>JS</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">76%</div>
+                                </div>                                  
+                            </li>
+                            <li>
+                                <span>SQL</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">75%</div>
+                                </div>                                  
+                            </li>
+                            <li>
+                                <span>FLUTTER</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">50%</div>
+                                </div>                                  
+                            </li>
+                            <li>
+                                <span>LARAVEL</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">50%</div>
+                                </div>                                  
+                            </li>
+                        </ui>
+                    </div>
+                    <hr>
+                    <div>
+                        <h5 class="text-center">Logiciels / Outils</h5>
+                        <ui class="row row-cols-2 progress-container">
+                            <li>
+                                <span>Adobe XD</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">80%</div>
+                                </div>                                  
+                            </li>
+                            <li>
+                                <span>Visual Studio</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">60%</div>
+                                </div>                                  
+                            </li>
+                            <li>
+                                <span>Visual Studio Code</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">80%</div>
+                                </div>                                  
+                            </li>
+                            <li>
+                                <span>Camtasia</span>
+                                <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar">90%</div>
+                                </div>                                  
+                            </li>
+                        </ui>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CV Section -->
 
         <!-- Footer -->
-        <footer id="footer" class="mt-4">
+        <footer id="footer">
             <div class="footerTop d-flex container justify-content-evenly">
                 <div class="">
                     <h3 class="fs-5">Liens Utiles</h3>
@@ -106,5 +219,7 @@
         </footer>
     </div>
 
+    <!-- JS script -->
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
