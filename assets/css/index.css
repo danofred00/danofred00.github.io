@@ -1,0 +1,20 @@
+
+#banner-container {
+    margin: 50px 0px;
+}
+
+#banner-image{
+    text-align: right;
+}
+
+@media screen and (max-width: 576px) {
+    
+    #banner-container {
+        margin: 10px 0px;
+    }
+
+    #banner div, #banner{
+        display: block;
+        text-align: center;
+    }
+}

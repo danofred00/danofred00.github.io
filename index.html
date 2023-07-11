@@ -8,11 +8,13 @@
     
     <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/67153034?v=4" type="image/x-icon">
 
-    <link rel="stylesheet" href="./assets/css/style.css">
-
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- My styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
 
 </head>
 <body>
@@ -33,13 +35,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href=".">Acceuil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#about-me">A Propos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" target="_blank" href="https://github.com/danofred00">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
                     </ul>
                     </div>                  
@@ -48,12 +53,35 @@
         </header>
 
         <!-- body -->
-        <main id="main-body">
+        <div class="align-items-center p-2 container-fluid" id="banner-container">
+            <div id="banner" class="row align-items-center justify-content-evenly">
+                <div id="banner-image" class="col d-inline-block">
+                    <img src="./assets/images/me.jpg" alt="Daniel Leussa" height="300" width="300" style="border-radius: 50%;">
+                </div>
+                <div class="col" id="banner-text">
+                    <span class="fs-4">Salut, Je suis <br><b>Daniel LEUSSA</b></span>
+                    <p>Developpeur Fullstack</p>
+                    <p><a class="btn btn-primary" target="_blank" href="https://github.com/danofred00" title="Voir mon portfolio">Mon Portfolio <span></span></a></p>
+                </div>
+            </div>
+        </div>
 
-        </main>
+        <div id="about-me" class="container-fluid">
+            <div class="container">
+                <div class="text-center fs-3 fw-bold text-uppercase">A propos de moi</div>
+                <div class="pt-4">
+                    <p>
+                        Je suis avant tout un super passioné de l'informatique de façon générale, j'étudie la programmation de façon continue et permanente en autodidacte depuis quatre (04) ans environ.
+                        J'ai pas mal d'experience en conception logiciel (planification, conception, realisation, tests, deploiement, maintenance).
+                        Je suis également un Youtubeur depuis deux (02) ans environs, et j'ai crée une nouvelle chaine qui se nomme <b><a href="https://youtube.com/@Harptutos">Harptutos</a></b>.
+                    </p>
+                </div>
+            </div>
+        </div>
+
 
         <!-- Footer -->
-        <footer id="footer">
+        <footer id="footer" class="mt-4">
             <div class="footerTop d-flex container justify-content-evenly">
                 <div class="">
                     <h3 class="fs-5">Liens Utiles</h3>
