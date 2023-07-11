@@ -33,6 +33,29 @@
     height: 150px;
 }
 
+/* STYLE FOR LOADING PAGE */
+#loading-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.75);
+    color: rgb(255, 168, 6);
+}
+
+#loading-progress-container {
+    margin-top: 200px;
+}
+
+#loading-progress {
+    width: 10rem;
+    height: 10rem;
+    border-width: 0.3rem;
+}
+
+/*END*/
+
 @media screen and (max-width: 576px) {
     
     #banner-container {
