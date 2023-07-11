@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.my-logo {
+    border-radius: 50%;
+    width: 30;
+    height: 30;
+}
+
+#footer {
+    text-align: center;
+    background: #000a;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#footer .footerBottom {
+    color: #fff;
+    background-color: #000;
+    font-weight: bold;
+    padding: 2px;
+    font-size: 0.8em;
+}
+
+.my-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.my-list img {
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.my-list li a {
+    color: #fff;
+    text-decoration: none;
+}
