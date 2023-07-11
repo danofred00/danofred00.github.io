@@ -49,11 +49,12 @@
     }
 
     .progress-container li {
+        width: 250px;
         margin: 0px auto;
+        text-align: center;
     }
 
     .progress-container li div.progress {
         display: inline-block;
-        width: 200px;
     }
 }
