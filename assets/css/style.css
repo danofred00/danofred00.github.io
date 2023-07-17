@@ -8,6 +8,22 @@ body {
     scroll-behavior: smooth;
 }
 
+#preHeader {
+    background-color: #000;
+}
+
+#preHeader ul {
+    list-style: none;
+    text-align: right;
+    word-spacing: 1em;
+    padding: 0px;
+    margin: 0px;
+}
+
+#preHeader ul li {
+    display: inline;
+}
+
 .my-logo {
     border-radius: 50%;
     width: 30;
@@ -17,7 +33,7 @@ body {
 #footer {
     text-align: center;
     background: #000a;
-    padding-top: 10px;
+    /*padding-top: 10px;*/
     color: #fff;
 }
 
@@ -25,7 +41,7 @@ body {
     color: #fff;
     background-color: #000;
     font-weight: bold;
-    padding: 2px;
+    padding: 10px;
     font-size: 0.8em;
 }
 

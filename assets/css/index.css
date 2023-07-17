@@ -1,4 +1,6 @@
 
+@import url('./style.css');
+
 #banner-container {
     margin: 50px 0px;
 }
